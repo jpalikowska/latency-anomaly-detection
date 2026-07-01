@@ -12,5 +12,5 @@ injected ground-truth anomalies.
 Anomaly detection difficulty depends strongly on both anomaly type and environment stability. For short-term anomalies, CUSUM gives the best point-level performance for sustained multi-day regressions, but event-level evaluation favors simpler threshold methods (Kalman, rolling z-score, EWMA, Shewhart). For long-term anomalies, results are weaker overall and linear slope performs best.
 
 ## Methods evaluated
-Short-term: rolling z-score, robust z-score, IQR, CUSUM, Kalman residual, Shewhart, EWMA
-Long-term: linear slope, Mann-Kendall, rolling slope (+ long-window CUSUM/EWMA/IQR)
+- **Short-term:** rolling z-score, robust z-score, IQR, CUSUM, Kalman residual, Shewhart, EWMA
+- **Long-term:** linear slope, Mann-Kendall, rolling slope (+ long-window CUSUM/EWMA/IQR)
